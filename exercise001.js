@@ -11,7 +11,7 @@ const promise = new Promise((resolve, reject) => {
   }
 });
 
-//--Task 1-- 🔥
+//🔥 -- Task 1 Using then() catch() -- 🔥
 // promise
 //   .then((response) => {
 //     console.log(`Yay! Promise resolved with response: ${response}`);
@@ -20,7 +20,7 @@ const promise = new Promise((resolve, reject) => {
 //     console.error(`Boo. Promise rejected with response: ${error}`);
 //   });
 
-//--Task 2-- 🔥
+//🔥 -- Task 2 Using async await -- 🔥
 const getResponse = async () => {
   try {
     const response = await promise;
